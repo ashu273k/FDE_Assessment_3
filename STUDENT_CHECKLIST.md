@@ -16,6 +16,6 @@ Before submitting, confirm that:
 - [X] The same evaluation cases were run on both architectures.
 - [X] Latency and LLM/tool-call counts are reported.
 - [X] The decision memo is <= 500 words and supported by evaluation evidence.
-- [ ] Setup instructions work from a clean environment. (Install `requirements.txt` first; not verified in the current environment.)
-- [X] Any LLM/provider SDK you added is present in `requirements.txt`. (No provider SDK was added.)
+- [X] Setup instructions work from a clean environment. (Verified in `.venv` with `python3 verify_setup.py`.)
+- [X] Any LLM/provider SDK you added is present in `requirements.txt`. (`google-genai` is declared for optional Gemini reviewer context.)
 - [X] `.env`, API keys, and other secrets are not committed.

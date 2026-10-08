@@ -25,7 +25,7 @@ Use the same public evaluation cases for both and defend which architecture you 
 ├── src/                    # Contracts + low-level helpers; NO agent solution
 ├── evals/                  # Six public evaluation cases + runner
 ├── templates/              # Evaluation and decision-memo templates
-├── docs/                   # Student assignment brief
+├── docs/                   # Assignment brief and final architecture notes
 ├── tests/                  # Starter-pack integrity tests
 ├── app.py                  # Optional Streamlit UI scaffold
 ├── run_local.py            # Starts mock API + optional UI
